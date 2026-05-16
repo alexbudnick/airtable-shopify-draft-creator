@@ -1,0 +1,14 @@
+{
+  "name": "airtable-shopify-draft-creator",
+  "version": "0.5.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "sync-drafts": "node src/sync_drafts.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
